@@ -1,0 +1,1 @@
+parameters = {'min_samples_split':[2,3,4,5], 'max_leaf_nodes' : [None,1,2,3], 'max_depth' : [1,2,3,4,5,6,7,8,9,10], 'criterion' : ['gini', 'entropy']}
