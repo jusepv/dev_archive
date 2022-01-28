@@ -8,4 +8,4 @@ def rolling_window(array, window_size,freq):
     rolled = np.lib.stride_tricks.as_strided(array, shape=shape, strides=strides)
     return rolled[np.arange(0,shape[0],freq)]
 
-rolling_window(a,5,4)
+print(rolling_window(a,5,4))
