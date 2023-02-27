@@ -44,7 +44,7 @@ def click_event(event, x, y, flags, params):
 if __name__=="__main__":
 
 	# reading the image
-	ls = glob.glob('snuhb/tren_positive/*.png')
+	ls = glob.glob('divided/negative/supine/*.png')
 	for i in ls:
 		img = Image.open(i)
 		img = np.array(img)
